@@ -1,0 +1,36 @@
+{
+  "name": "uri-gtm-injector",
+  "description": "URI GTM Injector",
+  "version": "0.1.0",
+  "homepage": "https://www.uri.edu",
+  "repository": "https://github.com/uriweb/uri-gtm-injector",
+  "docs": "https://github.com/uriweb/uri-gtm-injector#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "University of Rhode Island",
+  "humans": [
+    "Brandon Fuller <bjcfuller@uri.edu>"
+  ],
+  "license": "GPL-3.0",
+  "licenseURI": "http://www.gnu.org/licenses/gpl.html",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-replace-task": "^2.0.1",
+    "gulp-shell": ">=0.8.0"
+  },
+  "browserslist": {
+    "production": [
+      "> 1%",
+      "last 2 versions",
+      "Firefox >= 20",
+      "iOS >=8"
+    ],
+    "development": [
+      "> 1%",
+      "last 2 versions",
+      "Firefox >= 20",
+      "iOS >=8"
+    ]
+  }
+}
