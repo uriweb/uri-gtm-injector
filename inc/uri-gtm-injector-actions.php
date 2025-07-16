@@ -13,6 +13,7 @@ function uri_gtm_injector() {
 	$gtm = get_site_option( 'uri_gtm_injector_id' );
 	if ( ! empty( $gtm ) ) :
 	?>
+<!-- GTM -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -28,8 +29,10 @@ add_action( 'wp_head', 'uri_gtm_injector' );
  */
 function uri_gtm_injector_noscript() {
 	$gtm = get_site_option( 'uri_gtm_injector_id' );
-	if ( ! empty( $gtm ) ) {
-		echo '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=' . $gtm . '" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>';
-	}
+	if ( ! empty( $gtm ) ) :
+    ?>
+<!-- GTM (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=<?php echo $gtm; ?>" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <?php
+    endif;
 }
 add_action( 'wp_body_open', 'uri_gtm_injector_noscript' );
