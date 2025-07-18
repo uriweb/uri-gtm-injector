@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: URI GTM Injector
- * Plugin URI: http://www.uri.edu
+ * Plugin URI: http://github.com/uriweb/uri-gtm-injector
  * Description: A GTM injector for WordPress sites
- * Version: 0.1.0
+ * Version: 1.0.0
  * Author: URI Web Communications
- * Author URI: https://www.uri.edu/
+ * Author URI: https://www.uri.edu/wordpress
  *
  * @author: Brandon Fuller <bjcfuller@uri.edu>
  * @package uri-gtm-injector
