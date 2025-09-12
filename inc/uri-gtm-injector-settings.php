@@ -88,7 +88,7 @@ function uri_gtm_injector_settings_page_html() {
 	?>
 		<div class="wrap">
 			<h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
-			<form action="edit.php?action=save" method="post">
+			<form action="edit.php?action=save_gtm" method="post">
 				<?php
 					// output security fields for the registered setting
 					settings_fields( 'uri_gtm_injector' );
@@ -127,7 +127,7 @@ function uri_gtm_injector_id_field( $args ) {
 * Save the Settings
 */
 
-add_action('network_admin_edit_save', 'uri_gtm_injector_save_options');
+add_action('network_admin_edit_save_gtm', 'uri_gtm_injector_save_options');
 function uri_gtm_injector_save_options() {
 
 	update_site_option( 'uri_gtm_injector_id', $_POST['uri_gtm_injector_id'] );
