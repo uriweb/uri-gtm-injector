@@ -3,7 +3,7 @@
  * Plugin Name: URI GTM Injector
  * Plugin URI: http://github.com/uriweb/uri-gtm-injector
  * Description: A GTM injector for WordPress sites
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: URI Web Communications
  * Author URI: https://www.uri.edu/wordpress
  *

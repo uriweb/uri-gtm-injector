@@ -16,6 +16,6 @@ A super lightweight plugin to inject a GTM tag across a WordPress multisite netw
 **Contributors:** Brandon Fuller  
 **Tags:** plugins  
 **Requires at least:** 5.2  
-**Tested up to:** 6.8.1  
-**Stable tag:** 1.0.0  
+**Tested up to:** 6.8.2  
+**Stable tag:** 1.0.1  
 **License:** [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html)   
