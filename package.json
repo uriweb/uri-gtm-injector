@@ -1,7 +1,7 @@
 {
   "name": "uri-gtm-injector",
   "description": "URI GTM Injector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://www.uri.edu/wordpress",
   "repository": "https://github.com/uriweb/uri-gtm-injector",
   "docs": "https://github.com/uriweb/uri-gtm-injector#readme",
